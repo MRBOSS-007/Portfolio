@@ -1,0 +1,13 @@
+.diamond-border {
+    position: relative;
+    width: 9rem; /* w-36 */
+    height: 9rem; /* h-36 */
+    transform: rotate(45deg);
+    border: 2px dashed;
+    border-image: linear-gradient(90deg, #00f, #f0f, #0ff, #00f) 1;
+    animation: borderDash 4s linear infinite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
